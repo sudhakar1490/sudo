@@ -1,5 +1,12 @@
 Public Class Main{
 public static void main(String[] arg){
   System.out.println("Hello World")
+  
+  String [] str = "chennai"
+    for(int i= 0; i<str.length; i++){
+    if(i==a ||i==e ||i==i||i==0||i=u){
+          return null;
+        }
+         str[i] = i;
   }
 }
