@@ -1,5 +1,6 @@
 Public Class Main{
 public static void main(String[] arg){
+  
   System.out.println("Hello World")
   
   String [] str = "chennai"
@@ -8,5 +9,24 @@ public static void main(String[] arg){
           return null;
         }
          str[i] = i;
+    }
+    
+   public static int[] sortIntegers(int [] array){
+   
+      int temp =0;
+      for(int i= 0; i<array.length; i++){
+         for(int j= 0+1; j<array.length; j++ ){
+            if(array[i] < array[j]){
+            temp = array[i];
+            array[i] = array[j];
+            array[j]= temp;
+            
+            }
+       
+         }
+         return temp;
+      }
+     
+    }
   }
 }
